@@ -1,0 +1,140 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.supervisor, .team, .karma, .calc{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 hsla(233, 22%, 62%, 0.6);
+    border-radius: 7px;
+    width: 65%;
+    margin: auto;
+    padding: 5px 5px 40px 20px;
+    margin-top: 25px;
+    position: relative;
+   
+}
+
+h1{
+    font-weight: 100;
+    color: hsl(234, 16%, 26%);
+    font-size: 23px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.tech{
+    font-weight: 600;
+}
+
+.firstpara{
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+p{
+    color:hsl(229, 6%, 66%); 
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: -17px;
+    margin-bottom: 25px;
+    padding-right: 10px;
+    
+}
+
+h3{
+    color: hsl(234, 16%, 26%);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.team{
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.calc{
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.house, .glass, .bulb, .comp{
+    position:absolute;
+    bottom: 0;
+    right: 10%;
+    padding-bottom: 20px;
+    padding-top: 70px;
+    margin-top: 50px;
+    
+}
+
+@media screen and (min-width:1440px) {
+    h1{
+        font-size: 30px;
+    }    
+
+    .firstpara{
+        font-size: 13px;
+       
+    }
+
+    .team, .karma, .supervisor, .calc{
+        width: 20%;
+        display: inline-block;
+        
+    }
+
+   .karma, .team{
+       display: block;
+       padding-bottom: 70px;
+       
+   }
+   
+   .calc{
+       position: relative;
+       left: 70% ;
+       padding-bottom: 60px;
+       padding-right: 20px;
+       
+   }
+
+   .wrap{
+       position: relative;
+       margin-top: -24.2%;
+       margin-right: 140px;
+   }
+
+   .supervisor{
+       left: 10%;
+       position: absolute;
+       margin-left: 75px;
+       margin-top: 130px;
+       padding-right: 5px;
+       padding-bottom: 80px;
+   }
+
+   footer{
+       padding-top: 10px;
+   }
+
+   .house, .glass, .bulb, .comp{
+       padding-bottom: 30px;
+   }
+   
+   .sup{
+       width: 80%;
+   }
+   .cal{
+       padding-bottom: 25px;
+   }
+}
